@@ -1,12 +1,7 @@
-﻿# Controlando vídeo com JavaScript
+﻿# Player JavaScript #
 
-## ideal para criar uma barra de reprodução personalizada
+## Controlling media with JavaScript ##
 
-* play
-* pause 
-* mute
-* desmute
-
-
-
-
+* Install Dependencies: `bower install`
+* Events JavaScript : `play` `pause` `mute` `desmute`
+* Media: mp4
