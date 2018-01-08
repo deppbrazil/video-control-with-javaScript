@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Controlando vídeo com javaScript</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- bootstrap -->
 </head>
 
 <body style="overflow:hidden; background-color:black; margin:0; display: block;">
@@ -11,13 +16,13 @@
     </video>
     <footer style="width:100%; height:auto; position:absolute; bottom:5%; display:flex;">
         <div style="margin:auto;">
-            <button style="cursor:pointer;" onclick="playVid()" type="button">Play</button>
-            <button style="cursor:pointer;" onclick="pauseVid()" type="button">Pause</button>
-            <button style="cursor:pointer;" onclick="enableMute()" type="button">Mute</button>
-            <button style="cursor:pointer;" onclick="disableMute()" type="button">Sond</button>
+            <button class="btn btn-primary" style="cursor:pointer;" onclick="playVid()" type="button">Play</button>
+            <button class="btn btn-primary" style="cursor:pointer;" onclick="pauseVid()" type="button">Pause</button>
+            <button class="btn btn-primary" style="cursor:pointer;" onclick="enableMute()" type="button">Mute</button>
+            <button class="btn btn-primary" style="cursor:pointer;" onclick="disableMute()" type="button">Sond</button>
+            
         </div>
     </footer>
     <script src="js/controle.js"></script>
 </body>
-
 </html>
