@@ -1,0 +1,36 @@
+body {
+    overflow:hidden;
+    margin:0; 
+}
+
+.container-general {
+    border: 1vh solid #5bc0de;
+    background-color:black;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#myVideo {
+    width: 100%;
+    height: 80vh;
+
+}
+
+.container-buttons {
+   height: auto;
+}
+
+.footer {
+    width:100%; 
+    height:80px; 
+    position:absolute; 
+    bottom:0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+} 
