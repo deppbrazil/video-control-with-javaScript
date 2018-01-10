@@ -2,6 +2,8 @@
 
 ## Controlling media with JavaScript ##
 
-* Install Dependencies: `bower install`
+### Get Started `bower install` ###
+
+* Dependencies: jquery, bootstrap
 * Events JavaScript : `play` `pause` `mute` `desmute`
 * Media: mp4
