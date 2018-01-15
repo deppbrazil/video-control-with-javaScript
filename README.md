@@ -1,7 +1,7 @@
 ﻿# Player JavaScript #
 
 ## Controlling media with JavaScript ##
-#### Get Started: `bower install` ####
+#### Install Dependencies: `npm install` ####
 
 * Dependencies: jquery, bootstrap
 * Events JavaScript : `play` `pause` `mute` `desmute`
