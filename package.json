@@ -1,0 +1,28 @@
+{
+  "name": "video-control-with-javascript",
+  "version": "1.0.0",
+  "description": "Control media with JavaScript ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deppbrazil/video-control-with-javaScript.git"
+  },
+  "keywords": [
+    "media",
+    "video",
+    "control",
+    "javascript"
+  ],
+  "author": "Mir Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deppbrazil/video-control-with-javaScript/issues"
+  },
+  "homepage": "https://github.com/deppbrazil/video-control-with-javaScript#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
